@@ -21,6 +21,8 @@ body, html {
   background-color: #ff0072;
   position:relative;
   padding-left: 180px;
+  border: 3px;
+  border-color: green;
 }
 
 .LightPollution {

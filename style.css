@@ -18,42 +18,34 @@ body, html {
 }
 
 .mainContainer {
+  display: flex;
   background-color: #ff0072;
-  position:relative;
   padding-left: 180px;
-  border: 3px;
-  border-color: green;
 }
 
 .LightPollution {
-  position: absolute;
-  padding-left: 50px;
   text-align: center;
 }
 
 .whatContainer {
   background-color: #ef83f2;
-  position: absolute;
 }
 
 .trucksImg {
-  position: absolute;
 }
 
 .sqmContainer {
   background-color: #83c4f2;
-  position: absolute;
   text-align: center;
 }
 
 .bortleContainer {
   background-color: #83f2da;
-  position: absolute;
   text-align: center;
 }
 
 .dataCityImg {
-  position: absolute;
+
 }
 
 .pageNavBoxes {

@@ -18,9 +18,10 @@ body, html {
 }
 
 .mainContainer {
+  display: flex;
+  justify-content: center;
   background-color: #ff0072;
   padding-left: 180px;
-  display: flex;
   height: 800px;
 }
 

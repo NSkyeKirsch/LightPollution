@@ -20,7 +20,8 @@
 .Title {
   background-color: #ddd;
   position: absolute;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 30%;
   text-align: center;
 }

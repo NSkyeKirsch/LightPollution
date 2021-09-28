@@ -9,6 +9,13 @@ body, html {
   background-color: #000000;
 }
 
+.mainContainer {
+  display: flex;
+  background-color: #ff0072;
+  margin-left: 180px;
+  height: 800px;
+}
+
 .darknessMenu {
   display: inline-block;
   background-color: #ddd;
@@ -18,16 +25,8 @@ body, html {
   padding-left: 50px;
 }
 
-.mainContainer {
-  display: inline-flex;
-  justify-content: center;
-  background-color: #ff0072;
-  padding-left: 180px;
-  height: 800px;
-}
-
 .mainContainer > .LightPollution {
-  text-align: center;
+
 }
 
 .whatContainer {

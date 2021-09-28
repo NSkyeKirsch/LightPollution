@@ -19,6 +19,7 @@ body, html {
 .mainContainer > .darknessMenu {
   flex: 1;
   background-color: #ddd;
+  padding-left: 30px;
   height: 100%;
   width: 180px;
 }
@@ -26,6 +27,7 @@ body, html {
 .mainContainer > .LightPollution {
   flex: 2;
   background-color: #fcffa3
+  height: 100px;
 }
 
 .whatContainer {

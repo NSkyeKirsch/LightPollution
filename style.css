@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.darknessMenu {
+  background-color: #ddd;
+  position:relative;
+  height: 100%;
+  width: 180px;
+  padding-left: 50px;
+}
+
+.mainContainer {
+  background-color: #ff0072;
+  position:relative;
+  padding-left: 180px;
+}
+
+.LightPollution {
+  position: absolute;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.whatContainer {
+  background-color: #ef83f2;
+  position: absolute;
+}
+
+.trucksImg {
+  position: absolute;
+}
+
+.sqmContainer {
+  background-color: #83c4f2;
+  position: absolute;
+  text-align: center;
+}
+
+.bortleContainer {
+  background-color: #83f2da;
+  position: absolute;
+  text-align: center;
+}
+
+.dataCityImg {
+  position: absolute;
+}
+
+.pageNavBoxs {
+  background-color: #8a8a8a;
+  position:relative;
+
+}
+
+.pageHome {
+  background-color: #ff8a7a;
+  position:absolute;
+}
+
+.pageAnimals {
+  background-color: #ffc87a;
+  position:absolute;
+}
+
+.pagePeople {
+  background-color: #7aff81;
+  position:absolute;
+}
+
+
+
+.

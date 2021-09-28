@@ -10,6 +10,7 @@ body, html {
 }
 
 .darknessMenu {
+  display: inline-block;
   background-color: #ddd;
   position:relative;
   height: 100%;
@@ -18,7 +19,7 @@ body, html {
 }
 
 .mainContainer {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   background-color: #ff0072;
   padding-left: 180px;

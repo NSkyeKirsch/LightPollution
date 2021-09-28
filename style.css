@@ -17,8 +17,9 @@
   padding: 0px 10px;
 }
 
-h1.Title {
+.Title {
   background-color: #ddd;
+  position: absolute;
   margin: auto;
   width: 30%;
   text-align: center;

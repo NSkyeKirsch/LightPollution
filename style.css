@@ -1,75 +1,96 @@
 * {
+  /* border: 1px solid black; */
   box-sizing: border-box;
 }
 
-body, html {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  background-color: #000000;
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sideNav {
+  /* height: 100vh; */
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+  background-color: #111;
+  text-align: center;
+  line-height: 100px;
+  -webkit-box-shadow: 0px 0px 15px 5px #000000;
+  box-shadow: 0px 0px 15px 5px #000000;
+}
+
+
+a, a:visited, a:active {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+a:active {
+  color: #ff0072;
+}
+
+.sideNav a:hover {
+  color: #ff0072;
+}
+
+.heroTitle {
+  background-image: url('http://placekitten.com/1920/1080');
+  /* height: 50vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  padding: 32px;
+}
+
+.mainTitleText {
+  font-size: 64pt;
 }
 
 .mainContainer {
-  display: inline-flex;
-  justify-content: center;
-  background-color: #ff0072;
-  height: 500px;
+  padding-top: 100px;
 }
 
-.mainContainer > .darknessMenu {
-  flex: 1;
-  background-color: #ddd;
-  padding-left: 30px;
-  height: 100%;
-  width: 180px;
+.contentContainer {
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
-.mainContainer > .LightPollution {
-  flex: 2;
-  background-color: #fcffa3
-  height: 100px;
+.sectionHeader {
+  text-decoration: underline;
+  font-size: 32pt;
+  margin-top: 128px;
+  margin-bottom: 64px;
 }
 
-.whatContainer {
-  background-color: #ef83f2;
+p {
+  font-size: 24pt;
 }
 
-.trucksImg {
+.thumbnailContainer {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.sqmContainer {
-  background-color: #83c4f2;
-  text-align: center;
+.thumbnail {
+  width: 31%;
 }
 
-.bortleContainer {
-  background-color: #83f2da;
-  text-align: center;
-}
-
-.dataCityImg {
-
-}
-
-.pageNavBoxes {
-  background-color: #8a8a8a;
-  position:relative;
-
-}
-
-.pageHome {
-  background-color: #ff8a7a;
-  position:absolute;
-}
-
-.pageAnimals {
-  background-color: #ffc87a;
-  position:absolute;
-}
-
-.pagePeople {
-  background-color: #7aff81;
-  position:absolute;
+.columnContainer {
+  display: flex;
+  justify-content: space-between;
 }
 
 

@@ -10,7 +10,7 @@ body, html {
 }
 
 .mainContainer {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   background-color: #ff0072;
   margin-left: 180px;
